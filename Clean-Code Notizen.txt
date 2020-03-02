@@ -1,0 +1,22 @@
+Clean-Code (sauberer & lesbarer Code)
+
+- sich auf eine Art einigen (für sich und mit den anderen, falls man Code von den anderen ließt oder auch alten Code von sich...)
+
+- eine Schreibweise für Klassen, Variablen einigen (Klassennamen -> groß[Klassenname], Variablen&Parameter -> klein[variablen_name || variablenName]
+
+- passende Namen zu den Variablen, Funktionen...
+- bei Klassen(Car) nicht unnötiges nochmal erwähnen ("model" anstatt "car_model")
+- nicht Synonyme benutzen für einen Begriff (Bsp.: "user", "client", "costumer")
+
+- Kommentare (treffend, nötiges beschreiben, unnötiges lassen)
+
+- "DRY - Don't repeat yourself" -> kein sich wiederholender Code, Fehler entstehen durch COPY&PASTE
+	---> Lsg.: Funktion, Prozedur schreiben
+
+- "YAGNI - you aint gonna need it" -> auf das Konzentrieren, was zuerst nötig ist (keine Features, DUMMIES mit TODO-Kommentar)
+
+- "Single Responsibility" -> eine Verantwortlichkeit(große Methode) pro Klasse
+
+- offen für Erweiterungen, aber muss dazu nicht verändert werden
+
+- 
